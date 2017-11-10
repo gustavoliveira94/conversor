@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.display {
+    display: grid;
+    grid-template-rows: 20vh;
+    grid-template-columns: 100%; 
+}
+
+.displayConverted {
+    color: #7ed321 !important;
+}
+
+.display input {
+    background-color: #202020;
+    border: 0;
+    padding: 0 20px 0 20px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+}
+
+.keyboard .clear {
+    background-color: #c6c7cb;
+}
+
+.keyboard button {
+    cursor: pointer;
+    border: 1px solid #cdcccc;
+    background-color: #d8d8d8;
+    color: #000000;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.keyboard .usd-brl {
+    background-image: url("../imagem/dollar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.keyboard .brl-usd {
+    background-image: url("../imagem/real.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.keyboard .select {
+    border: 1px solid #4a90e2;
+    background-color: #4a90e2;
+}
+
+.keyboard .convert {
+    border: 1px solid #f98611;
+    background-color: #f98611;
+}
+
+.keyboard .converted {
+    border: 1px solid #27ae60;
+    background-color: #27ae60;
+}
